@@ -1,0 +1,67 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-size:14px;
+    font-family: "Inter", sans-serif;
+}
+img{
+    border-radius: 90%;
+    align-items: center;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+}
+@media(min-width: 375px) {
+    section{
+        padding:25px;
+    }
+}
+.encabezado{
+    text-align: center;
+}
+.tarjeta{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.tarjeta .nombre{
+    font-size: 2rem;
+    padding: 2px;
+}
+.tarjeta .ubica{
+    font-size: 1.2rem;
+    color: hsl(75, 94%, 57%);;
+
+}
+.tarjeta .des{
+    padding: 25px;
+}
+
+.tecnologias{
+    list-style: none;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    margin: 10px;
+    background-color:hsl(0, 0%, 20%); 
+    border-radius: 10px;
+}
+li:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
